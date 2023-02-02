@@ -55,9 +55,9 @@ hr:not([size]){
     height:1px
 }
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
-    margin-top:0;
+    margin-top:20;
     margin-bottom:.5rem;
-    font-family:"Jost",sans-serif;
+    font-family:"SUNDAY",sans-serif;
     font-weight:500;
     line-height:1.2;
     color:#262B47
@@ -168,7 +168,7 @@ a:not([href]):not([class]),a:not([href]):not([class]):hover{
     text-decoration:none
 }
 pre,code,kbd,samp{
-    font-family:var(--bs-font-monospace);
+    font-family: 'SUNDAY', sans-serif;
     font-size:1em;
     direction:ltr 
     /* rtl:ignore */
@@ -656,7 +656,7 @@ progress{
     --bs-gutter-x: 3rem
 }
 .g-5,.gy-5{
-    --bs-gutter-y: 3rem
+    --bs-gutter-y: 1rem
 }
 @media (min-width: 576px){
     .col-sm{
@@ -4706,7 +4706,7 @@ textarea.form-control-lg{
     z-index:1080;
     display:block;
     margin:0;
-    font-family:"Heebo",sans-serif;
+    font-family: 'SUNDAY', sans-serif;
     font-style:normal;
     font-weight:400;
     line-height:1.5;
@@ -4804,7 +4804,7 @@ textarea.form-control-lg{
     z-index:1070;
     display:block;
     max-width:276px;
-    font-family:"Heebo",sans-serif;
+    font-family: 'SUNDAY', sans-serif;
     font-style:normal;
     font-weight:400;
     line-height:1.5;
@@ -6350,6 +6350,9 @@ textarea.form-control-lg{
 }
 .bg-white{
     background-color:#fff !important
+}
+.bg-brn{
+    background-color:#e7e0db !important
 }
 .bg-transparent{
     background-color:rgba(0,0,0,0) !important
