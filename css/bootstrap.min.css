@@ -21,7 +21,7 @@
     --bs-danger: #dc3545;
     --bs-light: #F0F6FF;
     --bs-dark: #262B47;
-    /*--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", SUNDAY, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /*--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", sans-serif, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
     --bs-gradient: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0))
 }
@@ -35,7 +35,7 @@
 }
 body{
     margin:0;
-    font-family:"SUNDAY" !important;
+    font-family:"sans-serif" !important;
     font-size:1rem;
     font-weight:400;
     line-height:1.5;
@@ -57,7 +57,7 @@ hr:not([size]){
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
     margin-top:20;
     margin-bottom:.5rem;
-    font-family:"SUNDAY",sans-serif;
+    font-family:"sans-serif",sans-serif;
     font-weight:500;
     line-height:1.2;
     color:#262B47
@@ -168,7 +168,7 @@ a:not([href]):not([class]),a:not([href]):not([class]):hover{
     text-decoration:none
 }
 pre,code,kbd,samp{
-    font-family: 'SUNDAY', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     font-size:1em;
     direction:ltr 
     /* rtl:ignore */
@@ -4706,7 +4706,7 @@ textarea.form-control-lg{
     z-index:1080;
     display:block;
     margin:0;
-    font-family: 'SUNDAY', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     font-style:normal;
     font-weight:400;
     line-height:1.5;
@@ -4804,7 +4804,7 @@ textarea.form-control-lg{
     z-index:1070;
     display:block;
     max-width:276px;
-    font-family: 'SUNDAY', sans-serif;
+    font-family: 'sans-serif', sans-serif;
     font-style:normal;
     font-weight:400;
     line-height:1.5;
@@ -6355,7 +6355,7 @@ textarea.form-control-lg{
     background-color:#fff !important
 }
 .bg-brn{
-    background-color:#bcc7a887 !important
+    background-color:#ffffff !important
 }
 .bg-transparent{
     background-color:rgba(0,0,0,0) !important
