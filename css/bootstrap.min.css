@@ -157,7 +157,7 @@ sup{
     top:-.5em
 }
 a{
-    color:#4294E3;
+    color:#93c0a4;
     text-decoration:none
 }
 a:hover{
@@ -3176,7 +3176,7 @@ textarea.form-control-lg{
 .nav-link{
     display:block;
     padding:.5rem 1rem;
-    color:#4294E3;
+    color:#000;
     transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out
 }
 @media (prefers-reduced-motion: reduce){
