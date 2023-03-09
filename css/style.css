@@ -3,7 +3,7 @@
     --primary: #729D8C;
     --secondary: #93C0A4;
     --light: #F0F6FF;
-    --dark: #262B47;
+    --dark: #000;
 }
 /*@import url('https://fonts.cdnfonts.com/css/sans-serif');*/
 
@@ -98,7 +98,7 @@ h6,
 
 .btn.btn-secondary-gradient,
 .btn.btn-primary-gradient::after {
-    background: #262B47;
+    background: #000;
     margin-top: 1.5rem;
 }
 
@@ -600,18 +600,13 @@ h6,
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/Images/avenue-g7f98dd411_1920.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  z-index: -10;
 }
 @media(max-width: 767.98px){
 .parallax{
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 }
 
@@ -1149,7 +1144,7 @@ body {
   content: '';
   position: absolute;
   width: 5px;
-  background: #262B47;
+  background: #000;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -1180,11 +1175,11 @@ body {
   right: -30px;
   padding: 9px 0;
   background: #ffffff;
-  border: 5px solid #262B47;
+  border: 5px solid #000;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  color: #262B47;
+  color: #000;
   z-index: 1;
 }
 
@@ -1199,7 +1194,7 @@ body {
   min-width: 60px;
   top: 45px;
   padding: 6px 8px;
-  background: #262B47;
+  background: #000;
   text-align: center;
   font-size: 14px;
   color: #ffffff;
@@ -1225,12 +1220,12 @@ body {
   right: 28px;
   z-index: 1;
   border: 10px solid;
-  border-color: transparent #262B47 transparent transparent;
+  border-color: transparent #000 transparent transparent;
 }
 
 .container2.right::before {
   left: 28px;
-  border-color: transparent transparent transparent #262B47;
+  border-color: transparent transparent transparent #000;
 }
 
 .container2 .content {
@@ -1250,7 +1245,7 @@ body {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #262B47;
+  color: #000;
 }
 
 .container2 .content p {
@@ -1287,7 +1282,7 @@ body {
   .container2.left::before,
   .container2.right::before {
     left: 110px;
-    border-color: transparent transparent transparent #262B47;
+    border-color: transparent transparent transparent #000;
   }
 
   .container2.left .date,
@@ -1383,11 +1378,11 @@ a.animated-button:link, a.animated-button:visited {
 /* Thar Buttons */
 
 a.animated-button.thar-three {
-    color: #262B47;
+    color: #000;
     cursor: pointer;
     display: block;
     position: relative;
-    border: 2px solid #262B47;
+    border: 2px solid #000;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 0s;
 }
