@@ -149,7 +149,7 @@ h6,
     position: relative;
     margin-right: 25px;
     padding: 45px 0;
-    font-family: 'cursive' !important;
+    font-family: 'fantasy'  !important;
     font-size: 18px;
     font-weight: 500;
     color: #000 !important;
@@ -467,7 +467,7 @@ h6,
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "cursive";
+    font-family: "fantasy" ;
     font-weight: 900;
     margin-right: 10px;
 }
@@ -940,7 +940,7 @@ h6,
     top:0px;
     color:#8a8d91;
     font-weight:800;
-    font-family: 'cursive';
+    font-family: 'fantasy' ;
 }
 
 /*Gallery Widget*/
@@ -1126,7 +1126,7 @@ h6,
  html { overflow-x:hidden; }
 body {
   margin: 0;
-  font-family: "cursive";
+  font-family: "fantasy" !important;
   background: #ffffff;
   max-width: 100%;
   overflow-x: hidden;
