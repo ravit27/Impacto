@@ -1424,6 +1424,11 @@ a.animated-button.thar-three:before {
 
 main {
   overflow: hidden;
+  padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
 }
 
 a,
@@ -1580,6 +1585,7 @@ video {
 }
 
 .banner-column {
+  justify-content: center;
   position: relative;
   display: grid;
   align-items: center;
