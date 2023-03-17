@@ -1121,7 +1121,7 @@ h6,
 }
         section {
             padding: 3rem 0;
-           /* min-height: 100vh;*/
+            min-height: 100vh;
         }
 *,
 *::before,
@@ -1428,7 +1428,7 @@ main {
     padding-left: var(--bs-gutter-x, .75rem);
     margin-right: auto;
     margin-left: auto;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 a,
