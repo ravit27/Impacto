@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/georgia');
 /********** Template CSS **********/
 :root {
     --primary: #729D8C;
@@ -149,7 +150,7 @@ h6,
     position: relative;
     margin-right: 25px;
     padding: 45px 0;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-family: 'Georgia', sans-serif; 
     font-size: 18px;
     font-weight: 500;
     color: #000 !important;
@@ -201,7 +202,6 @@ h6,
 
     .navbar-light .navbar-collapse {
         margin-top: 15px;
-        border-top: 1px solid #DDDDDD;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -227,7 +227,7 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 60px;
     }
 }
 
@@ -467,7 +467,7 @@ h6,
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-family: 'Georgia', sans-serif;
     font-weight: 900;
     margin-right: 10px;
 }
@@ -592,14 +592,15 @@ h6,
 
 
 .parallax {
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+*/  text-align: center;
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/Images/avenue-g7f98dd411_1920.jpg");
   background-repeat: no-repeat;
+
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -607,7 +608,29 @@ h6,
 @media(max-width: 767.98px){
 .parallax{
     background-attachment: scroll;
+    height: 30vh;
 }
+}
+.parallax2 {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+*/  text-align: center;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/Images/avenue-g7f98dd411_1920.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+@media(max-width: 767.98px){
+.parallax2{
+    background-attachment: scroll;
+    height: 30vh;
+}
+
 }
 
 .p-2 {
@@ -946,7 +969,7 @@ h6,
     top:0px;
     color:#8a8d91;
     font-weight:800;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-family: 'Georgia', sans-serif;
 }
 
 /*Gallery Widget*/
@@ -1003,6 +1026,10 @@ h6,
     position:relative;
     float:left;
     padding:15px 0px;
+}
+
+.razorpay-subscription-button{
+    min-width: 34px;
 }
 
 .main-footer .info-widget .social-links li{
@@ -1123,6 +1150,12 @@ h6,
             padding: 3rem 0;
             min-height: 100vh;
         }
+        @media (max-width: 768px) {
+    section {
+        padding: 0rem 0;
+        min-height: 90vh;
+    }
+}
 *,
 *::before,
 *::after {
@@ -1134,7 +1167,7 @@ h6,
  html { overflow-x:hidden; }
 body {
   margin: 0;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; !important;
+  font-family: 'Georgia', sans-serif; !important;
   background: #ffffff;
   max-width: 100%;
   overflow-x: hidden;
@@ -1256,12 +1289,58 @@ body {
   color: #fff;
 }
 
+ @media (max-width: 768px) {
+    .container2 .content h2 {
+        font-size: 16px;
+    }
+}
+
+ @media (max-width: 768px) {
+    h3{
+        font-size: 1.3rem;
+    }
+}
+
 .container2 .content p {
   margin: 0;
   font-size: 16px;
   line-height: 22px;
   color: #454545;
 }
+.heroMedia {
+    color: #729D8C;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+@media (max-width: 767.98px) {
+  .heroMedia {
+    font-size: 1.25rem;
+    margin-top: 0rem;
+  }
+}
+
+.heroMediah1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+@media (max-width: 767.98px) {
+  .heroMediah1 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+}
+
+.heroMediaSpan {
+    font-size: 1.2rem;
+  }
+@media (max-width: 767.98px) {
+  .heroMediaSpan {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
 
 @media (max-width: 767.98px) {
   .timeline2::after {
