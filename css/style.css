@@ -186,12 +186,12 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 65px;
+    max-height: 75px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 65px;
+    max-height: 70px;
 }
 
 @media (max-width: 991.98px) {
@@ -644,7 +644,7 @@ h6,
   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/ngtv.png");
 }
 .p-5 {
-  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/pstv.png");
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../img/Images/team-g48eff657c_1920.jpg");
 }
 
 .fak.fa-tree-change-climate:before,
@@ -1156,6 +1156,14 @@ h6,
         min-height: 90vh;
     }
 }
+.reduceTop{
+    margin-top: -180px;
+}
+@media (max-width: 768px) {
+    .reduceTop {
+        margin-top: 0px;
+    }
+}
 *,
 *::before,
 *::after {
@@ -1533,7 +1541,13 @@ video {
 
 .section {
   margin: 0 auto;
+  margin-top: 20px;
   /*padding: 5rem 0 2rem;*/
+}
+@media (max-width: 768px) {
+    .section {
+       margin-top: -30px;
+    }
 }
 
 .container {
